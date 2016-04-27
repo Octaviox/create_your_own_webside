@@ -1,0 +1,153 @@
+Git Command:
+
+
+cd == change Chanel
+ls == list = show files
+git clone "link" == copy a file from Github
+git add == Change active
+git status == Cont. 
+git commit -a -m "Text"
+git push == push on Github
+
+
+Github:
+
+new repository == new Projectvim test.py
+
+
+
+
+
+Vim Command:
+i
+
+print("Hallo Welt")
+
+ESC (the esc key)
+
+:x
+
+python test.py
+
+if you type those commands / keys, it should work [tm]
+
+i is for insert mode (edited)
+
+esc is to leave it
+
+
+
+Phyton Command:
+
+
+Start:
+Start Python == python3.5  
+Start whit Command ==  python -c command [arg] ...
+Srart with Modul == python -m module [arg] ...  ??
+#!
+Usual Save Link == #!/usr/local/python
+Supported Check == Control-P
+Interactive Mode afterwards == -i
+Varable list == import sys >>> sys.argv[0]
+	-c	-m
+
+Tipps:
+
+Comment == #
+last Statemanet == _
+Input Line == input() / int(input("Wähle ien Zahl"))
+
+
+Maths:
++,-,*,/ == notmal
+// == floor division
+** == potenz  2**7 = 128
+complex numbers == 3 + 5j
+
+round float == round(float, spot-int)
+
+
+Strings:
+('...') == ("...")    \ to change ",'
+new Line == \n 
+stop fail == r"...." 	>> "\name" == ame
+			>> r"\name" == name 		
+
+multiple line String == """......"""
+
+addition String == "Py" + "thon" = Python
+multiplication String == 3* "un" = ununun
+Index String == >>> word = 'Python'
+		>>> word[0]  # character in position 0
+		'P'
+		>>> word[5]  # character in position 5
+		'n'
+String Parts == >>> word[0:2]  # characters from position 0 (included) 			to 2 (excluded)
+		'Py'
+		>>> word[2:5]  # characters from position 2 (included) 			to 5 (excluded)
+		'tho'
+Different string == >>> 'J' + word[1:]
+			'Jython'
+			>>> word[:2] + 'py'
+			'Pypy'
+length String == len(word) = 6
+ 
+
+print(....\n....) ==	....
+			....
+
+
+List:
+>>> squares = [1, 4, 9, 16, 25]
+		>>> squares[0]  # indexing returns the item
+		1
+		>>> squares[-1]
+		25
+		>>> squares[-3:]  # slicing returns a new list
+		[9, 16, 25]
+Show all (new)	>>> squares[:]
+		[1, 4, 9, 16, 25]
+
+Addition List == >>> squares + [36, 49, 64, 81, 100]
+		[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+Change List ==	>>> cubes = [1, 8, 27, 65, 125]  
+		>>> cubes[3] = 64  # replace the wrong value
+		>>> cubes = [1, 8, 27, 64, 125]
+Add new number  == cubes.append(216)
+		>>> cubes = [1, 8, 27, 64, 125, 216]
+Clear List == cubes [:] = []
+		>>> cubes = []
+:
+length == len(cubes) = 0
+
+save in List == listname.append(variable)
+
+
+
+pass Statements:
+pass == fill a Line without an action
+
+
+Functions:
+
+def name(Parameter):
+
+
+
+If statement: 
+>>> the_world_is_flat = True
+>>> if the_world_is_flat:
+...     print("Be careful not to fall off!")
+...
+Be careful not to fall off!
+
+
+Exit == Control-D  /  quit()
+
+
+
+
+
+
+
